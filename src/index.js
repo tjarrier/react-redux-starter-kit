@@ -1,19 +1,18 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { browserHistory } from 'react-router'
-import { syncHistoryWithSotre } from 'react-router-redux'
-import configureStore from '@store'
+import configureStore from './store'
 import { Provider } from 'react-redux'
-import { Router } from 'react-router'
-import routes from '@router'
-import '@css/index.css';
+import { Router, browserHistory } from 'react-router'
+import { syncHistoryWithStore } from 'react-router-redux'
+import routes from './router'
+import './assets/css/index.css';
 
 const store = configureStore()
-const history = syncHistoryWithSotre(browserHistory, store)
+const history = syncHistoryWithStore(browserHistory, store)
 
-const App = ({}) => (
+const App = () => (
     <Provider store={store}>
-        <Router history={history} routes={routes} />
+        <Router history={history} children={routes} />
     </Provider>
 )
 

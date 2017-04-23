@@ -1,21 +1,22 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import {ActionsCreators} from '@actions'
-import { browserHistory } from 'react-router'
+import {ActionsCreators} from '../../store/actions'
 
 class Home extends Component {
     render () {
         return (
             <div>
                 <p>I am the Home page</p>
+                <p>{this.props.counter}</p>
             </div>
         )
     }
 
     static propTypes = {
-        counter: React.PropTypes.number.isRequired
-    }git
+        counter: PropTypes.number
+    }
 }
 
 const mapStateToProps = (state) => ({
@@ -26,4 +27,4 @@ const mapDispatchToProps = (dispatch) => (
     bindActionCreators(ActionsCreators, dispatch)
 )
 
-export default connect(mapStateToProps, mapDispatchToProps)(App)
+export default connect(mapStateToProps, mapDispatchToProps)(Home)

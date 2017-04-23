@@ -1,11 +1,13 @@
 import React from 'react'
 import { Route } from 'react-router'
-
-import Home from '@containers/Home'
-import Contact from '@containes/Contact'
+import App from '../containers/App'
+import Home from '../containers/Home'
+import Contact from '../containers/Contact'
 
 const routes = (
-    <Route path="/" component={Home}>
-        <Route path="/contact" component={Contact} />
-    </Route>
+    <App>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/contact" component={Contact} />
+    </App>
 )
+ export default routes
