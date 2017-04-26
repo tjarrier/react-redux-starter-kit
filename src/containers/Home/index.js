@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import {ActionsCreators} from '../../store/actions'
+import Contact from '@containers/Contact'
 
 class Home extends Component {
     render () {
@@ -12,6 +13,7 @@ class Home extends Component {
             <div>
                 <p>I am the Home page</p>
                 <p>{this.props.counter}</p>
+                <Contact />
             </div>
         )
     }
