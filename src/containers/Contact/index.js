@@ -10,8 +10,9 @@ class Home extends Component {
     render () {
         return (
             <div>
-                <p>I am the Contact page</p>
-                <p>{this.props.counter}</p>
+                <p>
+                    This page offer at User the possibility of send a mail at JPJ.
+                </p>
             </div>
         )
     }

@@ -1,17 +1,17 @@
 /* @flow */
 
 import React from 'react'
-import { Link } from 'react-router-dom'
+
+// Components
+import NavBar from '@components/NavBar'
 
 const App = (props) => {
     return (
         <div>
             <div>
-                <Link to="/">Home</Link>
-                <p>//</p>
-                <Link to="/contact">Contact</Link>
+                <NavBar uri={document.URL.split('/')[3]} />
             </div>
-            <div>
+            <div className="container mt-3">
                 {props.children}
             </div>
         </div>

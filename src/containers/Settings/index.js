@@ -6,12 +6,12 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import {ActionsCreators} from '../../store/actions'
 
-class Home extends Component {
+class Settings extends Component {
     render () {
         return (
             <div>
                 <p>
-                    This is the Home page. Here we'll have informations on application, and other feature depending on what you want
+                    On this page, we will could add a list of student and we will could change it at all moment.
                 </p>
             </div>
         )
@@ -23,11 +23,11 @@ class Home extends Component {
 }
 
 const mapStateToProps = (state) => ({
-    counter: state.counter
+
 })
 
 const mapDispatchToProps = (dispatch) => (
     bindActionCreators(ActionsCreators, dispatch)
 )
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home)
+export default connect(mapStateToProps, mapDispatchToProps)(Settings)
