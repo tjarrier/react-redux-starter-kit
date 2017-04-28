@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ac511e6-8f5a-43d6-85ad-08cc02090004" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/NavBar/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Lycee/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Settings/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/css/index.css" afterPath="$PROJECT_DIR$/src/assets/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/App/index.js" afterPath="$PROJECT_DIR$/src/containers/App/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Contact/index.js" afterPath="$PROJECT_DIR$/src/containers/Contact/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Home/index.js" afterPath="$PROJECT_DIR$/src/containers/Home/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/index.js" afterPath="$PROJECT_DIR$/src/router/index.js" />
-    </list>
+    <list default="true" id="3ac511e6-8f5a-43d6-85ad-08cc02090004" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -549,12 +537,12 @@
       <workItem from="1493204195041" duration="1492000" />
       <workItem from="1493207364350" duration="3157000" />
       <workItem from="1493275512552" duration="544000" />
-      <workItem from="1493361561067" duration="11325000" />
+      <workItem from="1493361561067" duration="11494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27933000" />
+    <option name="totallyTimeSpent" value="28102000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
