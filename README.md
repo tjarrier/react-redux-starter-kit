@@ -1,2 +1,2 @@
 # macro_ccf
-Application for maths and physical teacher (BAC PRO).
+Application (petit test) for maths and physical teacher (BAC PRO).
