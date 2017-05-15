@@ -1,2 +1,1 @@
-# macro_ccf
-Application for maths and physical teacher (BAC PRO).
+This project contains the basic elements for a react-native app.
