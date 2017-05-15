@@ -1,2 +1,2 @@
 # react-redux-starter-kit
-This project contains the basic elements for a react-native app.
+This project contains the basic elements for a react app.
